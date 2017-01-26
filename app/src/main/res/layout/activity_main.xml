@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.android.androiddefaultfonts.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--Roboto Thin - sans-serif-thin-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-thin"
+            android:text="Roboto Thin\nsans-serif-thin" />
+
+        <!--Roboto Light - sans-serif-light-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-light"
+            android:text="Roboto Light\nsans-serif-light" />
+
+        <!--Roboto Regular - sans-serif-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif"
+            android:text="Roboto Regular\nsans-serif" />
+
+        <!--Roboto Medium - sans-serif-medium-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-medium"
+            android:text="Roboto Medium\nsans-serif-medium" />
+
+        <!--Roboto Bold - sans-serif-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif"
+            android:text="Roboto Bold\nsans-serif + bold"
+            android:textStyle="bold" />
+
+        <!--Roboto Black - sans-serif-black-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-black"
+            android:text="Roboto Black\nsans-serif-black" />
+
+        <!--Roboto Condensed Light - sans-serif-condensed-light-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Roboto Condensed Light\nsans-serif-condensed-light" />
+
+        <!--Roboto Condensed Regular - sans-serif-condensed-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Roboto Condensed Regular\nsans-serif-condensed" />
+
+        <!--Roboto Condensed Bold - sans-serif-condensed-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Roboto Condensed Regular\nsans-serif-condensed + bold"
+            android:textStyle="bold" />
+
+        <!--Noto Serif - serif-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="serif"
+            android:text="Noto Serif\nserif" />
+
+        <!--Noto Serif Bold - serif-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="serif"
+            android:text="Noto Serif Bold\nserif + bold"
+            android:textStyle="bold" />
+
+        <!--Droid Sans Mono - monospace-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="serif"
+            android:text="Droid Sans Mono\nmonospace" />
+
+        <!--Cutive Mono - serif-monospace-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="serif-monospace"
+            android:text="Cutive Mono\nserif-monospace" />
+
+        <!--Coming Soon - casual-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="casual"
+            android:text="Cutive Mono\ncasual" />
+
+        <!--Dancing Script - casual-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="cursive"
+            android:text="Dancing Script\ncursive" />
+
+        <!--Dancing Script - casual-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="cursive"
+            android:text="Dancing Script\ncursive + bold"
+            android:textStyle="bold" />
+
+        <!--Carrois Gothic SC - sans-serif-smallcaps-->
+        <TextView
+            style="@style/textViewStyle"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Carrois Gothic SC\nsans-serif-smallcaps" />
+
+    </LinearLayout>
+</ScrollView>
